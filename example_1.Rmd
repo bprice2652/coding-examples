@@ -1,0 +1,16 @@
+---
+title: "Example 1 File"
+author: "Brad"
+date: "3/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Loading a package
+
+```{r}
+library(car)
+```
